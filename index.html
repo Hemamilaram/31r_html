@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All tasks</title>
+    <title>HTML Tasks</title>
+    <style>
+        .task-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .task-list a {
+            text-decoration: none;
+            background-color: #17a2b8;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+        }
+        .task-list a:hover {
+            background-color: #138496;
+        }
+        .task-list .icon {
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-    <a href="Day 1/stack.html" target="_blank">Day 1 task</a><br>
-    <a href="Day 3/htmlpage.html" target="_blank">Day 2 task</a><br>
-    <a href="Day 4/index.html">Day 4 task</a><br>
-    <a href=""></a><br>
-    
+    <h2>Task List</h2>
+    <div class="task-list">
+        <a href="Day 1/stack.html" target="_blank"><span class="icon">📝</span> Task 1</a>
+        <a href="Day 3/htmlpage.html" target="_blank"><span class="icon">🔍</span> Task 2</a>
+        <a href="#"><span class="icon">📝</span> Task 3</a>
+        <a href="#"><span class="icon">🔍</span> Task 4</a>
+        <a href="#"><span class="icon">📝</span> Task 5</a>
+    </div>
 </body>
 </html>
