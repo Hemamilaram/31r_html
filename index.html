@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Tasks</title>
     <style>
-        .task-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
+        body {
+            background-color: #f0f8ff;  
+            font-family: Arial, sans-serif;  
         }
+        
+        h2 {
+            text-align: center;  
+            font-size: 30px;
+            margin-top: 40px;
+        }
+
+        .task-list {
+            display: block;
+            text-align: center; 
+            margin-top: 40px;
+        }
+
         .task-list a {
             text-decoration: none;
             background-color: #17a2b8;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             border-radius: 30px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 16px;
+            display: block;
+            font-size: 18px;
+            width: fit-content;
+            margin: 10px auto;  
+            transition: background-color 0.3s ease; 
         }
+
         .task-list a:hover {
-            background-color: #138496;
+            background-color: #138496; 
         }
+
         .task-list .icon {
             font-size: 20px;
         }
@@ -32,11 +47,16 @@
 <body>
     <h2>Task List</h2>
     <div class="task-list">
-        <a href="Day 1/stack.html" target="_blank"><span class="icon">📝</span> Task 1</a>
-        <a href="Day 3/htmlpage.html" target="_blank"><span class="icon">🔍</span> Task 2</a>
-        <a href="#"><span class="icon">📝</span> Task 3</a>
-        <a href="#"><span class="icon">🔍</span> Task 4</a>
-        <a href="#"><span class="icon">📝</span> Task 5</a>
+        <a href="Day 0/heading.html" target="_blank"><span class="icon">🔍</span> Task 1-code using heading tag</a>
+        <a href="Day 1/stack.html" target="_blank"><span class="icon">📝</span> Task 2-fullstack technologies using heading and paragraph tags</a>
+        <a href="Day 3/htmlpage.html" target="_blank"><span class="icon">🔍</span> Task 3-Html clone page</a>
+        <a href="Day 4/day4.html"><span class="icon">📝</span> Task 4- emmets symbol and description table, shortcuts</a>
+        <a href="Day 5/alltech.html"><span class="icon">🔍</span> Task 5- frontend, mean, mern technology using images</a>
+        <a href="Day 6/resume.html"><span class="icon">📝</span> Task 6- Building resume using forms tags</a>
     </div>
 </body>
 </html>
+
+
+
+
