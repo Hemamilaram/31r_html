@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body style="background-color: deepskyblue;">
+    <form action="">
+        <h2>Student Registration Form</h2>
+
+        <label for="name">Name :</label><br>
+        <input type="text" id="name" name="name"> <br><br>
+
+        <label for="father-name">Father's name :</label><br>
+        <input type="text" id="father-name" name="father-name"> <br><br>
+
+        <label for="mother-name">Mother's name :</label><br>
+        <input type="text" id="mother-name" name="mother-name"> <br><br>
+
+        <label for="phone">Phone number :</label><br>
+        <input type="tel" id="phone" name="phone"> <br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="bloodgroup">Blood Group :</label><br>
+        <select id="bloodgroup" name="bloodgroup" required>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select><br><br>
+
+        <label>Department :</label><br>
+        <input type="radio" id="CSE" name="department" value="CSE">
+        <label for="CSE">CSE</label>
+        <input type="radio" id="EEE" name="department" value="EEE">
+        <label for="EEE">EEE</label>
+        <input type="radio" id="ECE" name="department" value="ECE">
+        <label for="ECE">ECE</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

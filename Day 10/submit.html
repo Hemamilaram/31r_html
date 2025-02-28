@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body style="background-color: lightyellow;">
+
+    <form action="https://formsubmit.co/hemamiles3@gmail.com" method="POST">
+        <h2>Contact Us</h2>
+
+        <label for="full-name">Full Name :</label><br>
+        <input type="text" id="full-name" name="full-name" required><br><br>
+
+        <label for="email">Email Address :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject :</label><br>
+        <select id="subject" name="subject" required>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Support Request">Support Request</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="message">Your Message :</label><br>
+        <textarea id="message" name="message" rows="5" cols="50" required placeholder="Write your message here..."></textarea><br><br>
+
+        <label for="phone">Phone Number (optional) :</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="subscribe">Subscribe to our Newsletter :</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+        <label for="subscribe">Yes, I want to receive updates.</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
